@@ -1,2 +1,2 @@
 # NotSkype-Website
-Website source for NotSkype
+Source code for the NotSkype Website, version 1.0.

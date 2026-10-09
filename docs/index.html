@@ -1,9 +1,122 @@
 <!DOCTYPE HTML>
-<html>
-  <head>
-    <title>NotSkype | Bastion</title>
-  </head>
-  <body>
-    <h1>NotSkype Website</h1>
-  </body>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NotSkype | Bastion</title>
+
+	<!-- Meta tags -->
+	<meta name="theme-color" content="#3f568f">
+	<meta name="title" content="NotSkype | Bastion" />
+	<meta name="description" content="Your preferred Skype revival service, with support for other IM apps." />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://notskype.xyz/" />
+	<meta property="og:title" content="NotSkype | Bastion" />
+	<meta property="og:description" content="Your preferred Skype revival service, with support for other IM apps." />
+	<meta property="og:image" content="https://notskype.xyz/skypebanner.png" />
+
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://notskype.xyz/" />
+	<meta property="twitter:title" content="NotSkype | Bastion" />
+	<meta property="twitter:description" content="Your preferred Skype revival service, with support for other IM apps." />
+	<meta property="twitter:image" content="https://notskype.xyz/skypebanner.png" />
+	<!-- End meta tags -->
+
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" type="image/png" href="./Skype-icon-new.png">
+</head>
+<body>
+<div class="site">
+	<table class="w-100 header-table">
+		<tr>
+			<td class="w-70">
+				<h1 class="brand"><img class="brand-icon" src="./Skype-icon-new.png" alt=""><span>NotSkype</span><span class="release text-muted">Beta Release</span></h1>
+			</td>
+			<td class="w-30 text-right datebox">
+				<p class="m-0"><strong id="day">Day</strong><br><span id="date"></span></p>
+			</td>
+		</tr>
+	</table>
+
+	<div class="nav-area font-small">
+		<h3 class="t">Quick Navigation</h3>
+		<p class="m-0"><a href="index.html" class="navlinks current">Home</a><a href="connect.html" class="navlinks">Get started</a><a href="clients.html" class="navlinks">Clients</a><a href="download.html" class="navlinks">Downloads</a><a href="status.html" class="navlinks">Status</a><a href="news.html" class="navlinks">News</a><a href="faq.html" class="navlinks">FAQ</a><a href="about.html" class="navlinks">About</a><a href="account.html" class="navlinks">Account</a></p>
+	</div>
+
+
+	<table class="columns">
+		<tr>
+			<td class="w-50">
+				<h3 class="t">Welcome to NotSkype</h3>
+				<p>NotSkype is a revival service for classic instant messaging clients.</p>
+				<p>Our focus is to bring back as much functionality to Skype (our main focus and the reason this was started), as well as other IM clients, so that they may, once again, connect and communicate.</p>
+				<p><strong>New here?</strong> Check out the <a href="connect.html">getting started guide</a>, then head to the <a href="download.html">downloads page</a> to get a NotSkype client.</p>
+			</td>
+			<td class="w-50">
+				<h3 class="t">Service overview</h3>
+				<table class="service-table">
+					<tr><th>Protocol</th><th>Status</th><th>Current objective</th></tr>
+					<tr><td class="service-name">Skype WW</td><td><span class="status status-ok">Live</span></td><td>Publicly available</td></tr>
+					<tr><td class="service-name">Skype 7</td><td><span class="status status-beta">In development</span></td><td>Our biggest priority for now</td></tr>
+					<tr><td class="service-name">MSN / WLM</td><td><span class="status status-dev">Beta</span></td><td>Final tests</td></tr>
+					<tr><td class="service-name">Other services</td><td><span class="status status-planned">Planned</span></td><td>Let us know what service you want on our network!</td></tr>
+				</table>
+				<p class="font-small text-muted">Refer to the <a href="news.html">news page</a> for latest updates.</p>
+			</td>
+		</tr>
+	</table>
+
+	<table class="columns">
+		<tr>
+			<td class="w-50">
+				<h3 class="t">Quick start</h3>
+				<ol class="compact-list">
+					<li>Sign up for a NotSkype account.</li>
+					<li>Check what client versions are currently supported.</li>
+					<li>Download and patch your preferred client (follow the setup guide).</li>
+					<li>Sign in with your NotSkype account!</li>
+				</ol>
+				<p><a href="connect.html">Full setup guide &raquo;</a></p>
+			</td>
+			<td class="w-50">
+				<h3 class="t">What's new</h3>
+				<p id="home-news-more"><a href="news.html">more news...</a></p>
+			</td>
+		</tr>
+	</table>
+
+	<table class="columns">
+		<tr>
+			<td class="w-60">
+				<h3 class="t">Why bother??</h3>
+				<p>These older chat applications were more than a contact list and a chat box: their sounds and design defined how people communicated online. With the original servers now long gone, these legacy clients cannot do anything on their own.</p>
+				<p>We built NotSkype to provide like-minded users with a familiar interface, as well as new users who want to check these old versions out!</p>
+			</td>
+			<td class="w-40">
+				<h3 class="t">Useful links</h3>
+				<ul class="list compact-list">
+					<li><a href="status.html">Check service status</a></li>
+					<li><a href="download.html">Downloads and patching</a></li>
+					<li><a href="faq.html">Common questions and troubleshooting</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<div class="font-small">
+		<h3 class="t"><img src="./frame_00_delay-0.05s.gif" class="fun-icon" alt=""> Support our cause</h3>
+		<p class="m-0">NotSkype is open source, with most of our developers being from our parent community Bastion. It takes much time and effort to maintain and build this service, so please consider supporting us.</p>
+	</div>
+
+	<div class="footer">
+		<div class="footer-links"><a href="index.html">Home</a><a href="faq.html">Support / FAQ</a><a href="about.html">About</a></div>
+		&copy; BastionSG 2024-2026<br>
+		<span class="tp">NotSkype is an independent revival service. We are in no way affiliated with nor endorsed by Skype or Microsoft.</span>
+	</div>
+</div>
+<script src="./site.js"></script>
+<script src="./news-data.js"></script>
+<script src="./home-news-list.js"></script>
+</body>
 </html>

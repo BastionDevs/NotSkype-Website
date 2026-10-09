@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>News article | NotSkype</title>
+	<meta name="theme-color" content="#3f568f">
+	<meta name="description" content="NotSkype project news article.">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" type="image/png" href="./Skype-icon-new.png">
+</head>
+<body>
+<div class="site">
+	<table class="w-100 header-table">
+		<tr>
+			<td class="w-70">
+				<h1 class="brand"><img class="brand-icon" src="./Skype-icon-new.png" alt=""><span>NotSkype</span><span class="release text-muted">Beta Release</span></h1>
+			</td>
+			<td class="w-30 text-right datebox">
+				<p class="m-0"><strong id="day">Day</strong><br><span id="date"></span></p>
+			</td>
+		</tr>
+	</table>
+
+	<div class="nav-area font-small">
+		<h3 class="t">Quick Navigation</h3>
+		<p class="m-0"><a href="index.html" class="navlinks">Home</a><a href="connect.html" class="navlinks">Get started</a><a href="clients.html" class="navlinks">Clients</a><a href="download.html" class="navlinks">Downloads</a><a href="status.html" class="navlinks">Status</a><a href="news.html" class="navlinks current">News</a><a href="faq.html" class="navlinks">FAQ</a><a href="about.html" class="navlinks">About</a><a href="account.html" class="navlinks">Account</a></p>
+	</div>
+
+	<p class="font-small article-back"><a href="news.html">&laquo; Back to NotSkype news</a></p>
+
+	<div id="article-content" class="article-content"></div>
+	<div id="article-error" class="notice" style="display:none;">
+		<strong>Article not found.</strong> The news item may have been moved or the link may be incomplete. <a href="news.html">Return to NotSkype news</a>.
+	</div>
+
+	<div class="footer">
+		<div class="footer-links"><a href="index.html">Home</a><a href="faq.html">Support / FAQ</a><a href="about.html">About</a></div>
+		&copy; BastionSG 2024-2026<br>
+		<span class="tp">NotSkype is an independent revival service. We are in no way affiliated with nor endorsed by Skype or Microsoft.</span>
+	</div>
+</div>
+<script src="./site.js"></script>
+<script src="./news-data.js"></script>
+<script src="./article.js"></script>
+</body>
+</html>
